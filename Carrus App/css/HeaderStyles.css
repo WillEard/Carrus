@@ -1,0 +1,57 @@
+.menu-bar
+{
+  background-image: linear-gradient(-90deg, #47e6fd, #47abfd);
+}
+
+.nav-link
+{
+  font-size: 16px;
+  margin: 3px;
+  font-weight: 500;
+  color: white!important;
+}
+
+.navbar-nav
+{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.menu-bar .navbar-toggle
+{
+  padding-right: 20px;
+  outline: none!important;
+  border: none!important;
+}
+
+.navbar .navbar-toggler
+{
+  color: #fff!important;
+  font-size: 26px; 
+}
+
+.nav-link:hover
+{
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+  color: #fff!important;
+}
+
+.navbar-brand img
+{
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+  .nav-link:hover
+  {
+    border-bottom: none!important;
+  }
+}
+
+.extra_margin{
+  margin-top: 10px;
+}
